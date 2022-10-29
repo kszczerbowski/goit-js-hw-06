@@ -13,7 +13,6 @@ ingredients.forEach(value => {
   listElement.classList.add("item");
   listElement.textContent = value;
   arrOfElements.push(listElement.outerHTML);
-  console.log(listElement);
 });
 const markup = arrOfElements.join("");
 list.innerHTML = markup;
